@@ -9,8 +9,8 @@
 # ***********************************************************************
 
 user_credentials = {
-  "client_id": 60393,
-  "client_secret": "e156204b06e6f3824b8f67da422cdc26a2fc2713",
+  "client_id": 54001,
+  "client_secret": "516645a6ee23d28d3111ed892b444d71699b6d79",
   "auth_callback_domain": "http://localhost",
-  "code": "94718618fc74acd8a8edba7356cda0e85fe91219"
+  "code": "f37681f962ea199cf80dfa217425b8e9d4b96845"
 }

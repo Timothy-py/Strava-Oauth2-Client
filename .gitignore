@@ -1,2 +1,6 @@
 .idea
 __pycache__
+credentials.json
+strava_credentials.pyc
+stravaUserInfo.json
+token.pickle

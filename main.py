@@ -40,7 +40,7 @@ if token_response.status_code == 200:
         json.dump(athlete_tokens, dataObject)
     dataObject.close()
 
-    print(f"Athlete Token Data: {athlete_tokens}")
+    print("Athlete Token Data: {}".format(athlete_tokens))
 
     # ************************** GOOGLE DRIVE API CODES STARTS HERE **************************
     # If modifying these scopes, delete the file token.pickle.
@@ -82,7 +82,7 @@ if token_response.status_code == 200:
     # ************************** GOOGLE DRIVE API CODES ENDS HERE **************************
 
 else:
-    print(f"AN ERROR OCCURRED: {token_response.status_code}")
+    print("AN ERROR OCCURRED: {}".format(token_response.status_code))
 
 # ************************** STRAVA API CODES ENDS HERE **************************
 
